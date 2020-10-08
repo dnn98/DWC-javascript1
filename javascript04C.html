@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript Template</title>
+  </head>
+  <body>
+    <h1>Excercise 4A</h1>
+    <p>Dani Garrido</p>
+    <script type="text/javascript">
+    var name1;
+    var price1;
+    var quant1;
+    var name2;
+    var price2;
+    var quant2;
+
+    name1=prompt("Enter first product name:", "");
+    price1=prompt("Enter its price:", "");
+    quant1=prompt("Enter the quantity you want:", "");
+
+    name2=prompt("Enter second product name:", "");
+    price2=prompt("Enter its price:", "");
+    quant2=prompt("Enter the quantity you want:", "");
+
+    price1 = parseInt(price1, 10);
+    quant1 = parseInt(quant1, 10);
+    price2 = parseInt(price2, 10);
+    quant2 = parseInt(quant2, 10);
+
+    document.write("The product "+name1+" is: "+price1*quant1+" euro total.");
+    document.write("\n");
+    document.write("The product "+name2+" is: "+price2*quant2+" euro total.");
+    </script>
+  </body>
+</html>
